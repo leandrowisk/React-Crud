@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+img {
+  transform: scale(.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.users-table {
+  width: 80%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EFF2EF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+th {
+  font-size: 24px;
+  padding: 16px 42px;
+}
+
+td {
+  font-size: 22px;
+  padding: 16px 42px;
+}
+
+thead tr {
+  text-align: left;
+}
+
+.user-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 10%;
+  width: 60%;
+  background: #e4e4e4;
+  padding: 22px;
+  border-radius: 10px;
+  min-height: 500px;
+  margin: 72px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+input {
+  border: none;
+  background: #fff;;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+label {
+  margin-bottom: 8px;
+  margin-top: 22px;
+  font-size: 18px;
+}
+
+.btn {
+  width: 25%;
+  border-radius: 10px;
+  background-color: black;
   color: white;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loading {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-btn {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.delete-icon {
+  color: red;
+  cursor: pointer;
+}
+
+.add-btn {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  font-size: 22px;
+  justify-content: end;
+}
+
+.add {
+    background: #55aff0;
+    display: flex;
+    border-radius: 10px;
+    padding: 16px;
 }
